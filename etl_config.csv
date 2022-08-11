@@ -1,0 +1,4 @@
+dao_name,src_path,tgt_tbl,sql_query,delimiter,exec_flag
+file_to_rawz_delimited_dao,/user/vijay/file.txt,rawzone_tbl,select * from tbl;,NA,Y
+rawz_to_curz_dao,rawz,curz,curz_query,NA,Y
+curz_to_conz_dao,curz,conz,conz_query,NA,N
