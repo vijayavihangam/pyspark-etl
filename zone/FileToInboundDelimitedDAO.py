@@ -1,4 +1,4 @@
-import HummerDriver
+from Driver import HummerDriver
 
 
 def read_source_file(dao_name, src_path, tgt_tbl, sql_query, delimiter, exec_flag):
